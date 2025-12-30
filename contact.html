@@ -33,8 +33,8 @@
     </nav>
     <div class="container">
         <h2>Get in Touch With Us</h2>
-        <!-- Netlify表单核心：action设为POST，添加data-netlify="true" -->
-        <form name="contact" method="POST" data-netlify="true">
+        <!-- Netlify表单核心：action设为POST，添加data-netlify="true"，action指向成功页面 -->
+        <form name="contact" method="POST" data-netlify="true" action="/success.html">
             <!-- 隐藏字段，防止垃圾邮件 -->
             <input type="hidden" name="form-name" value="contact">
             <label for="name">Your Name</label>
