@@ -1,6 +1,0 @@
-my-website/
-├── index.html    # 主页
-├── products.html # 产品页
-├── contact.html  # 联系页
-└── css/
-    └── style.css # 样式文件
