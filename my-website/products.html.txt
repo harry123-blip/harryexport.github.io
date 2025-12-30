@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Products - Your Company Name</title>
+    <style>
+        /* 复用统一样式，适配产品展示布局 */
+        * {margin: 0; padding: 0; box-sizing: border-box; font-family: Arial, sans-serif;}
+        header {background: #2c3e50; color: white; padding: 20px; text-align: center;}
+        nav {background: #34495e; padding: 10px; text-align: center;}
+        nav a {color: white; margin: 0 15px; text-decoration: none;}
+        .container {max-width: 1200px; margin: 20px auto; padding: 0 20px;}
+        h2 {color: #2c3e50; margin-bottom: 30px; text-align: center;}
+        .products-grid {display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 25px;}
+        .product-card {border: 1px solid #eee; border-radius: 8px; padding: 20px; transition: box-shadow 0.3s;}
+        .product-card:hover {box-shadow: 0 4px 8px rgba(0,0,0,0.1);}
+        .product-card img {width: 100%; height: 200px; object-fit: cover; border-radius: 5px; margin-bottom: 15px;}
+        .product-card h3 {color: #2c3e50; margin-bottom: 10px;}
+        .product-card .price {color: #e74c3c; font-weight: bold; margin: 10px 0;}
+        .product-card .features {margin: 10px 0; padding-left: 20px;}
+        footer {background: #2c3e50; color: white; text-align: center; padding: 20px; margin-top: 40px;}
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Your Company Name</h1>
+        <p>High-Quality Products for Global Markets</p>
+    </header>
+    <nav>
+        <a href="/">Home</a>
+        <a href="/about.html">About Us</a>
+        <a href="/products.html">Products</a>
+        <a href="/contact.html">Contact</a>
+    </nav>
+    <div class="container">
+        <h2>Our Featured Products</h2>
+        <div class="products-grid">
+            <!-- 产品1 -->
+            <div class="product-card">
+                <!-- 替换为你的产品图片URL，可上传到GitHub后复制链接 -->
+                <img src="https://via.placeholder.com/300x200?text=Product+1" alt="Product Name 1">
+                <h3>Product Name 1</h3>
+                <p>Short description of Product 1: key features and benefits for customers.</p>
+                <div class="price">MOQ: 100 pcs | Price: $10.00/pc</div>
+                <ul class="features">
+                    <li>Feature 1: e.g. High durability</li>
+                    <li>Feature 2: e.g. Eco-friendly material</li>
+                    <li>Feature 3: e.g. Custom logo available</li>
+                </ul>
+            </div>
+
+            <!-- 产品2 -->
+            <div class="product-card">
+                <img src="https://via.placeholder.com/300x200?text=Product+2" alt="Product Name 2">
+                <h3>Product Name 2</h3>
+                <p>Short description of Product 2: key features and benefits for customers.</p>
+                <div class="price">MOQ: 50 pcs | Price: $25.00/pc</div>
+                <ul class="features">
+                    <li>Feature 1: e.g. Fast delivery (7 days)</li>
+                    <li>Feature 2: e.g. CE certified</li>
+                    <li>Feature 3: e.g. OEM/ODM supported</li>
+                </ul>
+            </div>
+
+            <!-- 产品3 -->
+            <div class="product-card">
+                <img src="https://via.placeholder.com/300x200?text=Product+3" alt="Product Name 3">
+                <h3>Product Name 3</h3>
+                <p>Short description of Product 3: key features and benefits for customers.</p>
+                <div class="price">MOQ: 200 pcs | Price: $8.50/pc</div>
+                <ul class="features">
+                    <li>Feature 1: e.g. Low maintenance</li>
+                    <li>Feature 2: e.g. Competitive price</li>
+                    <li>Feature 3: e.g. Long warranty (2 years)</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <p>© 2025 Your Company Name | All Rights Reserved</p>
+    </footer>
+</body>
+</html>

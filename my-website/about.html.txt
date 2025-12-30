@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - Your Company Name</title>
+    <style>
+        /* 复用统一样式，保证全站风格一致 */
+        * {margin: 0; padding: 0; box-sizing: border-box; font-family: Arial, sans-serif;}
+        header {background: #2c3e50; color: white; padding: 20px; text-align: center;}
+        nav {background: #34495e; padding: 10px; text-align: center;}
+        nav a {color: white; margin: 0 15px; text-decoration: none;}
+        .container {max-width: 1200px; margin: 20px auto; padding: 0 20px;}
+        .section {margin: 40px 0;}
+        h2 {color: #2c3e50; margin-bottom: 20px;}
+        h3 {color: #34495e; margin: 15px 0;}
+        p {line-height: 1.6; margin-bottom: 15px;}
+        .team-box {display: flex; flex-wrap: wrap; gap: 20px; margin-top: 20px;}
+        .team-member {flex: 1; min-width: 250px; border: 1px solid #eee; padding: 15px; border-radius: 5px; text-align: center;}
+        footer {background: #2c3e50; color: white; text-align: center; padding: 20px; margin-top: 40px;}
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Your Company Name</h1>
+        <p>High-Quality Products for Global Markets</p>
+    </header>
+    <nav>
+        <a href="/">Home</a>
+        <a href="/about.html">About Us</a>
+        <a href="/products.html">Products</a>
+        <a href="/contact.html">Contact</a>
+    </nav>
+    <div class="container">
+        <div class="section">
+            <h2>About Our Company</h2>
+            <p>Founded in 2010, Your Company Name is a leading manufacturer and exporter specialized in [你的产品品类，比如：electronics / home goods / industrial equipment] with over 15 years of experience in global trade.</p>
+            <p>Our factory is located in [你的城市，比如：Shenzhen, China], covering an area of 5,000 square meters, with more than 100 skilled workers and advanced production lines. We are committed to providing reliable products and professional services to customers in Europe, North America, Southeast Asia, and other regions.</p>
+        </div>
+
+        <div class="section">
+            <h2>Our Core Values</h2>
+            <ul>
+                <li>Quality First: Strict QC system from raw material to final product</li>
+                <li>Customer Focus: Customized solutions to meet your specific needs</li>
+                <li>Continuous Innovation: R&D team updates products every 6 months</li>
+                <li>Win-Win Cooperation: Long-term partnership with competitive price</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>Certifications</h2>
+            <p>We have obtained ISO 9001, CE, RoHS, FCC certifications to ensure our products meet international standards. All products pass 100% inspection before shipment.</p>
+            <!-- 可添加认证图片，示例：<img src="https://你的GitHub仓库地址/iso-cert.jpg" alt="ISO 9001 Certification" style="max-width: 200px; margin: 10px;"> -->
+        </div>
+    </div>
+    <footer>
+        <p>© 2025 Your Company Name | All Rights Reserved</p>
+    </footer>
+</body>
+</html>
